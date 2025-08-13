@@ -1,0 +1,23 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A brief description of your project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "your-build-command", 
+    "build": "npm run generate",
+    "dev": "npm run start"
+  },
+  "keywords": ["example", "node", "build"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "some-other-dependency": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "babel-loader": "^8.0.0"
+  }
+}
